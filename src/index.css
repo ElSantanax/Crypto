@@ -1,0 +1,46 @@
+:root {
+  --white: #FFFFFF;
+  --primary: #61ECBC;
+  --black: #182339;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: url('./bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  overflow-y: hidden;
+  font-family: "Outfit", sans-serif;
+}
+
+.container {
+  max-width: 60rem;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.app-title {
+  font-size: 3rem;
+  margin-top: 5rem;
+  color: var(--white);
+  text-align: center;
+}
+
+.app-title span {
+  display: block;
+  color: var(--primary);
+  font-size: 4rem;
+}
+
+.content {
+  margin-top: 5rem;
+  padding: 6rem 2rem;
+  background-color: var(--white);
+  border-radius: 1rem;
+  box-shadow: rgb(0 0 0 / 78%) 4px 5px 12px;
+}

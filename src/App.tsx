@@ -7,7 +7,7 @@ function App() {
 
   useEffect(() => {
     fetchCrytos()
-  }, []);
+  }, [fetchCrytos]);
 
   return (
     <>

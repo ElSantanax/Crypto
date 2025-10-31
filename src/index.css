@@ -83,3 +83,10 @@ body {
 .form [type="submit"]:hover {
     background-color: #5ae0b1;
 }
+
+/* ERROR */
+
+.error {
+    text-align: center;
+    color: red;
+}

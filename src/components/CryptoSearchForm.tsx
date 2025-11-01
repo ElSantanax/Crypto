@@ -4,7 +4,7 @@ import { currencies } from "../data";
 import type { Pair } from "../types";
 import ErrorMessage from "./ErrorMessage";
 
-export default function CriptoSearchForm() {
+export default function CryptoSearchForm() {
 
   const cryptocurriencies = useCryptoStore((state) => state.cryptocurriencies)
   const fetchData = useCryptoStore((state) => state.fetchData)
